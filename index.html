@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicios de Matemáticas</title>
+  <link rel="stylesheet" href="css\estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Resolución de Ejercicios con Formularios</h1>
+  </header>
+
+  <nav>
+    <a href="#" onclick="mostrar('ej6')">Ejercicio 6</a>
+    <a href="#" onclick="mostrar('ej7')">Ejercicio 7</a>
+    <a href="#" onclick="mostrar('ej8')">Ejercicio 8</a>
+    <a href="#" onclick="mostrar('ej9')">Ejercicio 9</a>
+    <a href="#" onclick="mostrar('ej10')">Ejercicio 10</a>
+  </nav>
+
+  <!-- Ejercicio 6 -->
+  <section id="ej6" class="seccion">
+    <h2>Ejercicio 6</h2>
+    <label>Valor de z: <input type="number" step="any" id="z6"></label>
+    <button onclick="resolverEj6()">Calcular</button>
+    <div id="resultado6"></div>
+  </section>
+
+  <!-- Ejercicio 7 -->
+  <section id="ej7" class="seccion">
+    <h2>Ejercicio 7</h2>
+    <label>Valor de t: <input type="number" step="any" id="t7"></label>
+    <button onclick="resolverEj7()">Calcular</button>
+    <div id="resultado7"></div>
+  </section>
+
+  <!-- Ejercicio 8 -->
+  <section id="ej8" class="seccion">
+    <h2>Ejercicio 8</h2>
+    <label>x: <input type="number" step="any" id="x8"></label>
+    <label>y: <input type="number" step="any" id="y8"></label>
+    <button onclick="resolverEj8()">Calcular</button>
+    <div id="resultado8"></div>
+  </section>
+
+  <!-- Ejercicio 9 -->
+  <section id="ej9" class="seccion">
+    <h2>Ejercicio 9</h2>
+    <label>c: <input type="number" step="any" id="c9"></label>
+    <label>d: <input type="number" step="any" id="d9"></label>
+    <button onclick="resolverEj9()">Calcular</button>
+    <div id="resultado9"></div>
+  </section>
+
+  <!-- Ejercicio 10 -->
+  <section id="ej10" class="seccion">
+    <h2>Ejercicio 10</h2>
+    <label>Ángulo x (radianes): <input type="number" step="any" id="x10"></label>
+    <button onclick="resolverEj10()">Calcular</button>
+    <div id="resultado10"></div>
+  </section>
+
+  <footer>
+    <p>Marcelo Orozco</p>
+  </footer>
+
+  <script src="js\script.js"></script>
+</body>
+</html>
